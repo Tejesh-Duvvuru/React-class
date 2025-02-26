@@ -36,6 +36,7 @@ const RestaurantCard = (props) => {
   );
 };
 
+//higher order components
 export const withPromtedLable = (RestaurantCard) => {
   return (props) => {
     return (

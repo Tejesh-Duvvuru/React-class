@@ -30,7 +30,7 @@ inside jsx we can inject js code by using {}
 
 <h2>{100 + 100} </h2>
 
-fineshed
+finished
 
 --------------------------------------
 App.js

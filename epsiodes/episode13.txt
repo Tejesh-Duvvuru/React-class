@@ -1,0 +1,28 @@
+// testing
+
+
+how write testcases
+
+
+types of testing (developer)
+
+1) Unit testing   (one unit or component or small code testing)
+2) Integration testing  (Testing collabration of different components)
+3) End to End testing - e2e testing (we will test all types of flows, entier app)
+4) Manuall testing (testing by human)
+
+
+setup testing
+libraries :- Testing library(React Testing Library)
+React Testing library uses Jest library
+Jest is a light weigt java script testing library
+with addition of jest will need to install babel extestion and configure bale file (babel.config.js)
+
+npm install --save-dev @testing-library/react @testing-library/dom
+npm install --save-dev jest
+npm install --save-dev babel-jest @babel/core @babel/preset-env
+babel.config.js (configure babel)
+
+parcel already use babel configuration internall
+now we are also using our own bable configuration for jest
+this will became a conflict  (babel will confuse or parcel will confuse)
